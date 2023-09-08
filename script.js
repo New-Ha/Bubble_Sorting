@@ -80,6 +80,7 @@ async function BubbleSort(arr) {
         sticks[sticks.length - i - 1].style.backgroundColor = '#ff9999';
         console.log(`정렬 중 🫧 : ${arr}`);
     }
+    console.log(`정렬 끝! 👉🏻 ${arr}`);
 }
 
 // 함수를 호출해 실행시킨다.
