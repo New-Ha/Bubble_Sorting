@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header {
+    text-align: center;
+    margin-top: 80px;
+}
+
+#container {
+    background-color: white;
+    height: 400px;
+    width: 530px;
+    margin: auto;
+    margin-top: 15px;
+    position: relative;
+}
+
+.stick {
+    width: 30px;
+    background-color: #faebd7;
+    position: absolute;
+    bottom: 0px;
+    transition: 0.2s all ease;
+}
+
+.stickNum {
+    position: absolute;
+    color: black;
+    text-align: center;
+    margin-top: -20px;
+    width: 100%;
+}
